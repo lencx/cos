@@ -29,6 +29,8 @@ gcc hello.o -o hello
 
 # Linux系统运行可执行文件: `./hello`
 gcc hello.c -o hello
+
+objdump -d HelloWorld
 ```
 
 ![hello.o hex](img/hello-hex.png)
