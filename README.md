@@ -77,5 +77,7 @@
 
 ---
 
-如果对此课程感兴趣，可以扫码购买
-<img width="240" src="./assets/jksj-os.png" alt="二维码" />
+<p align="center">
+  <p>如果对此课程感兴趣，可以扫码购买</p>
+  <img width="240" src="./assets/jksj-os.png" alt="二维码" />
+</p>
