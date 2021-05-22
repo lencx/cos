@@ -5,7 +5,7 @@
 ```bash
               gcc工具链
              ┌───────────┐
-hello.c  --> │gcc预处理器 │ --> hello.i
+hello.c  --> │ gcc预处理器｜ --> hello.i
 hello.i  --> │ gcc编译器  │ --> hello.s
 hello.s  --> │ gcc汇编器  │ --> hello.o
 hello.o  --> │ gcc链接器  │ --> hello可执行文件
@@ -41,7 +41,7 @@ objdump -d hello >> hello.dump
 - [Ken Thompson(肯·汤普逊)](https://en.wikipedia.org/wiki/Ken_Thompson) - Unix 之父，黑客文化圈子通常称他为 “`ken`”
   - UNiplexed Information and Computing System(UNICS) - 上世纪60年代，用 B 语言和汇编语言在 PDP-7 的机器上完成 UNIX 的雏形，一个全新的操作系统。
 - [Dennis MacAlistair Ritchie(丹尼·麦卡利斯泰尔·里奇)](https://en.wikipedia.org/wiki/Dennis_Ritchie) - C 语言创造者，Unix 系统关键开发者，黑客圈子通常称他为 “`dmr`”
-- [John von Neumann(约翰·冯·诺伊曼)](https://en.wikipedia.org/wiki/John_von_Neumann) 理论计算机科学与博弈论的奠基者
+- [John von Neumann(约翰·冯·诺伊曼)](https://en.wikipedia.org/wiki/John_von_Neumann) - 理论计算机科学与博弈论的奠基者
 
 ### 冯诺依曼体系结构
 
