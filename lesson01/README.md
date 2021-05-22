@@ -30,7 +30,8 @@ gcc hello.o -o hello
 # Linux系统运行可执行文件: `./hello`
 gcc hello.c -o hello
 
-objdump -d HelloWorld
+# 得到 hello.dump 文件
+objdump -d hello >> hello.dump
 ```
 
 <img width="480" src="./img/hello-hex.png" alt="hello.o hex" />
@@ -63,6 +64,8 @@ objdump -d HelloWorld
 <img width="480" src="./img/os-1.png" alt="电子计算机示意图" />
 
 ```bash
+# ./hello/hello.dump
+
 # 地址     十六进制                      汇编代码                   注释
 0000000100003f50 <_main>:
 100003f50: 55                          	pushq	%rbp
